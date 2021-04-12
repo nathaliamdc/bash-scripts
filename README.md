@@ -1,7 +1,7 @@
 # bash-scripts
 
-Kubernetes development environment
-=======
+Kubernetes dev env
+-----------
 
 This script sets up the following:
 
@@ -15,9 +15,17 @@ This script sets up the following:
 * Helmfile
 * kubeval
 
+
 AWS CLI 2
-=======
+-----------
 
 This script sets up the following:
 * AWS CLI
 * AWS IAM access configuration
+
+
+Terraform
+-----------
+
+This script setps up:
+* Terraform
