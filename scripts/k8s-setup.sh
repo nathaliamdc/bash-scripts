@@ -210,6 +210,23 @@ sudo rm helmfile_linux_amd64
 
 
 #############################################
+#          Installing kustomize             #
+#############################################
+# Use case: install and patch YAML manifests
+# P.S.: install standalone kustomize
+
+echo '[+] Downloading kustomize v4.1.2...'
+curl -LO https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.1.2/kustomize_v4.1.2_linux_amd64.tar.gz
+
+echo '[+] Installing kustomize v4.1.2...'
+tar -xzvf kustomize_v4.1.2_linux_amd64.tar.gz
+sudo install -o root -g root -m 0755 kustomize /usr/local/bin/kustomize
+
+echo '[+] Cleaning up files...'
+rm kustomize kustomize_v4.1.2_linux_amd64.tar.gz
+
+
+#############################################
 #            Installing kubeval             #
 #############################################
 # Use case: validates Kubernetes YAML files

@@ -13,6 +13,7 @@ This script sets up the following:
 * Velero
 * Helm
 * Helmfile
+* kustomize
 * kubeval
 
 
