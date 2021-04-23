@@ -31,8 +31,15 @@ Terraform
 This script setps up:
 * Terraform
 
+
 kOps
 -----------
 
 This script installs:
 * kops
+
+
+Skaffold
+-----------
+This script installs:
+* Skaffold
