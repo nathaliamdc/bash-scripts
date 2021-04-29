@@ -43,3 +43,8 @@ Skaffold
 -----------
 This script installs:
 * Skaffold
+
+minIO Client
+-----------
+This script installs:
+* mc (minIO Client)
