@@ -15,7 +15,7 @@ ALIASES=('k=kubectl')
 # Function to check if alias exists in file 
 function alias_exists(){
 	local alias=$1
-        local file=$2
+    local file=$2
 	if ! grep -q -x -F -e "$alias" <"$file"; then
 	  return 1
 	fi
