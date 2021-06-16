@@ -45,3 +45,8 @@ Go
 ---
 This script installs:
 * Go language
+
+aws-iam-authenticator
+---
+This script installs:
+* aws-iam-authenticator
