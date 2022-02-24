@@ -4,7 +4,7 @@ echo "[+] Downloading buf..."
 # Substitute PREFIX for your install prefix.
 # Substitute VERSION for the current released version.
 PREFIX="/usr/local"
-VERSION="1.0.0-rc8"
+VERSION="1.0.0"
 curl -LO "https://github.com/bufbuild/buf/releases/download/v${VERSION}/buf-$(uname -s)-$(uname -m).tar.gz"
 
 echo "[+] Installing buf..."
